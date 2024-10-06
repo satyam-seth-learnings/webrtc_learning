@@ -1,3 +1,4 @@
+// step-2
 const offer = "<peer-a-offer-sdp>";
 const rc = new RTCPeerConnection();
 rc.onicecandidate = e => console.log("New Ice Candidate! reprinting SDP", JSON.stringify(rc.localDescription));

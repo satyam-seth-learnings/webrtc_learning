@@ -1,0 +1,5 @@
+# for backend
+Django==5.1.1
+
+# for websocket
+channels==3.0.4
